@@ -47,11 +47,11 @@ public class MainActivity extends CordovaActivity {
         loadUrl(launchUrl);
 
         // Method to start the notification process
-        //notifyNotification.executeProcess(Constants.PROCESS_START);
+        notifyNotification.executeProcess(Constants.PROCESS_START);
         // Method to start the vibrate of device
         //notifyVibrate.executeProcess(Constants.TIME_VIBRATE);
         // Method to ON|OFF the service
-        //serviceBackground(Constants.STOP_SERVICE);
+        serviceBackground(Constants.START_SERVICE);
     }
 
     public void serviceBackground(int service) {
